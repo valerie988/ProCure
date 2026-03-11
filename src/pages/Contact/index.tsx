@@ -8,7 +8,7 @@ const ContactPage = () => {
       <section className="relative h-125 flex items-center justify-center text-center overflow-hidden">
         {/* Blurred Background */}
         <div
-          className="absolute inset-0 bg-cover bg-center filter blur-sm brightness-75"
+          className="absolute inset-0 bg-cover bg-center filter blur-xs brightness-50"
           style={{ backgroundImage: "url('/images/contact.jpeg')" }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>

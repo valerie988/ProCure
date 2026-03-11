@@ -46,7 +46,7 @@ const Hero = () => {
             <img
               src={slide.img}
               alt={slide.title}
-              className="absolute inset-0 w-full h-full object-cover filter blur-sm brightness-75"
+              className="absolute inset-0 w-full h-full object-cover filter blur-xs brightness-20"
             />
 
             {/* Text */}

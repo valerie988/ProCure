@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Intro = () => {
   return (
     <section className="py-20 bg-gray-50">
@@ -27,10 +29,10 @@ const Intro = () => {
               streamline their procurement process and achieve financial efficiency. 
               We provide expert guidance and tools to ensure smooth operations and informed decisions.
             </p>
-        
+        <Link to="/about">
             <button className="bg-blue-500 text-white px-6 py-3 rounded-lg w-max hover:bg-blue-600 transition">
               Read More
-            </button>
+            </button></Link>
       
           </div>
 
