@@ -3,22 +3,22 @@ const KeyServices = () => {
   {
     title: "Procurement & Sourcing",
     desc: "Market analysis, vendor identification, competitive sourcing through quotations and tenders, supplier evaluation, and contract negotiation to secure reliable and cost-effective procurement solutions.",
-    img: "src/assets/images/services.jpeg",
+    img: "/images/services.jpeg",
   },
   {
     title: "Supply & Delivery",
     desc: "Procurement and delivery of office supplies, equipment, ICT materials, consumables, and operational goods with efficient logistics and bulk purchasing options.",
-    img: "src/assets/images/pic18.jpeg",
+    img: "/images/pic18.jpeg",
   },
   {
     title: "Quality & Compliance",
     desc: "Verification of product specifications, transparent documentation and recordkeeping, compliance with donor procurement guidelines, and supplier risk assessment.",
-    img: "src/assets/images/pic14.jpeg",
+    img: "/images/pic14.jpeg",
   },
   {
     title: "Client Support Services",
     desc: "Customized procurement planning, advisory on cost-effective sourcing, and dedicated after-sales support including issue resolution and supplier coordination.",
-    img: "src/assets/images/pic15.jpeg",
+    img: "/images/pic15.jpeg",
   },
 ];
 

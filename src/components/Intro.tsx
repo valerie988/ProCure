@@ -6,7 +6,7 @@ const Intro = () => {
         {/* Left Image */}
         <div>
           <img
-            src="src/assets/images/pic17.jpeg"
+            src="/images/pic17.jpeg"
             alt="Team working"
             className="rounded-xl shadow-lg object-cover w-full h-96 md:h-165"
           />
@@ -37,7 +37,7 @@ const Intro = () => {
           {/* Image below text */}
           <div>
             <img
-              src="src/assets/images/problem.jpeg"
+              src="/images/problem.jpeg"
               alt="Meeting"
               className="rounded-xl shadow-lg object-cover w-full h-64 md:h-80"
             />

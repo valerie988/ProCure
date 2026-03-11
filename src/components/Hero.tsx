@@ -5,17 +5,17 @@ const slides = [
   {
     title: "Simplify Procurement",
     desc: "Connect with suppliers and optimize your workflow efficiently.",
-    img: "src/assets/images/pic17.jpeg",
+    img: "/images/pic17.jpeg",
   },
   {
     title: "Manage Suppliers Easily",
     desc: "Track all your supplier interactions in one place seamlessly.",
-    img: "src/assets/images/pic2.jpeg",
+    img: "/images/pic2.jpeg",
   },
   {
     title: "Gain Actionable Insights",
     desc: "Analyze data and make smarter procurement decisions.",
-    img: "src/assets/images/services.jpeg",
+    img: "/images/services.jpeg",
   },
 ];
 

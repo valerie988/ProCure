@@ -24,7 +24,7 @@ const Navbar = () => {
             to="/"
             className="text-xl font-bold text-blue-600 tracking-tight"
           >
-            <img src="src/assets/images/logo1.png" alt="" className="w-29"  />
+            <img src="/images/logo1.png" alt="" className="w-29"  />
           </Link>
 
           {/* Desktop Menu */}

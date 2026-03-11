@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+import logo1 from "../../public/images/logo1.png";
 const Footer = () => {
   return (
     <footer className=" bg-linear-to-b from-blue-950 to-black text-blue-300">
@@ -12,8 +13,8 @@ const Footer = () => {
 
           {/* Brand */}
           <div>
-            <img src="src/assets/images/logo1.png" alt=""  className="w-40 "/>
-            <p className=" text-sm text-gray-400 leading-relaxed">
+            <img src={logo1} alt="Procure Logo" className="w-40" />
+            <p className="mt-5 text-sm text-gray-400 leading-relaxed">
               Simplifying procurement for modern organizations.  
               Connect with suppliers, streamline purchasing, and manage operations efficiently.
             </p>

@@ -1,22 +1,24 @@
 import { Link } from "react-router-dom";
 
-   {/*
+// If you want logos from the public folder  
+ {/*
 const partners = [
-  { name: "Company A", logo: "src/assets/images/pic1.jpeg" },
-  { name: "Company B", logo: "src/assets/images/pic1.jpeg" },
-  { name: "Company C", logo: "src/assets/images/pic1.jpeg" },
-  { name: "Company D", logo: "src/assets/images/pic1.jpeg" },
-];*/}
-
+  { name: "Company A", logo: "/images/pic1.jpeg" },
+  { name: "Company B", logo: "/images/pic2.jpeg" },
+  { name: "Company C", logo: "/images/pic3.jpeg" },
+  { name: "Company D", logo: "/images/pic4.jpeg" },
+];   
+*/}
 const PartnerPage = () => {
   return (
     <div className="bg-gray-50 font-poppins">
+      
       {/* Hero Section */}
       <section className="relative h-125 flex items-center justify-center text-center overflow-hidden">
         {/* Blurred Background */}
         <div
           className="absolute inset-0 bg-cover bg-center filter blur-sm brightness-75"
-          style={{ backgroundImage: "url('src/assets/images/pic3.jpeg')" }}
+          style={{ backgroundImage: "url('/images/pic3.jpeg')" }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>
 
@@ -42,26 +44,11 @@ const PartnerPage = () => {
         </h2>
         <div className="grid gap-8 md:grid-cols-3">
           {[
-            {
-              icon: "🚀",
-              title: "Business Growth",
-              desc: "Expand your reach and increase revenue through strategic collaboration.",
-            },
-            {
-              icon: "🤝",
-              title: "Seamless Collaboration",
-              desc: "Work with a team committed to your success and continuous improvement.",
-            },
-            {
-              icon: "💡",
-              title: "Innovation & Tools",
-              desc: "Leverage advanced platforms and insights to deliver superior value.",
-            },
+            { icon: "🚀", title: "Business Growth", desc: "Expand your reach and increase revenue through strategic collaboration." },
+            { icon: "🤝", title: "Seamless Collaboration", desc: "Work with a team committed to your success and continuous improvement." },
+            { icon: "💡", title: "Innovation & Tools", desc: "Leverage advanced platforms and insights to deliver superior value." },
           ].map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500 flex flex-col items-center text-center"
-            >
+            <div key={idx} className="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500 flex flex-col items-center text-center">
               <div className="text-5xl mb-6">{item.icon}</div>
               <h3 className="text-xl font-bold mb-2">{item.title}</h3>
               <p className="text-gray-600">{item.desc}</p>
@@ -70,7 +57,7 @@ const PartnerPage = () => {
         </div>
       </section>
 
-      {/* Partner Logos 
+      {/* Partner Logos
       <section className="py-24 bg-gray-100">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-12 text-center">
           Our Trusted Partners
@@ -78,10 +65,7 @@ const PartnerPage = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-12">
           {partners.map((partner, idx) => (
-            <div
-              key={idx}
-              className="h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500"
-            >
+            <div key={idx} className="h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500">
               <img src={partner.logo} alt={partner.name} className="h-full object-contain" />
             </div>
           ))}

@@ -4,34 +4,34 @@ const blogPosts = [
     excerpt: "Learn how to streamline your procurement process and save time with these expert tips.",
     category: "Insights",
     date: "Mar 9, 2026",
-    img: "src/assets/images/progress.jpeg",
+    img: "/images/progress.jpeg",
   },
   {
-    title: "Why Procurement matters in organisations",
-    excerpt: "Track ypur exppenses and give your money value through a upfront yearly procurement plan.",
+    title: "Why Procurement Matters in Organisations",
+    excerpt: "Track your expenses and give your money value through an upfront yearly procurement plan.",
     category: "News",
     date: "Mar 1, 2026",
-    img: "src/assets/images/problem.jpeg",
+    img: "/images/problem.jpeg",
   },
   {
     title: "Fun Facts About Procurement",
     excerpt: "Do you know procurement has been evolving for over 50 years? Discover fun trivia.",
     category: "Fun",
     date: "Feb 25, 2026",
-    img: "src/assets/images/cube.jpeg",
+    img: "/images/cube.jpeg",
   },
-
 ];
 
 const BlogPage = () => {
   return (
     <div className="bg-gray-50 font-poppins">
 
+      {/* Hero Section */}
       <section className="relative h-125 flex items-center justify-center text-center overflow-hidden">
         {/* Blurred Background */}
         <div
           className="absolute inset-0 bg-cover bg-center filter blur-sm brightness-75"
-          style={{ backgroundImage: "url('src/assets/images/news.jpeg')" }}
+          style={{ backgroundImage: "url('/images/news.jpeg')" }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>
 
@@ -41,7 +41,7 @@ const BlogPage = () => {
             ProCure Insights & News
           </h1>
           <p className="text-lg md:text-2xl text-white/90 drop-shadow-md">
-             Stay updated with the latest trends, news, and fun stories from Procure.
+            Stay updated with the latest trends, news, and fun stories from Procure.
           </p>
         </div>
 
@@ -49,11 +49,9 @@ const BlogPage = () => {
         <div className="absolute top-10 left-10 w-24 h-24 bg-yellow-300 rounded-full opacity-30 animate-pulse mix-blend-multiply"></div>
         <div className="absolute bottom-10 right-10 w-32 h-32 bg-blue-300 rounded-full opacity-20 animate-pulse mix-blend-multiply"></div>
       </section>
-    
 
       {/* Blog Grid */}
       <section className="py-24 max-w-7xl mx-auto px-6 md:px-12">
-
         <div className="grid gap-12 md:grid-cols-3">
           {blogPosts.map((post, idx) => (
             <div
