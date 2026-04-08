@@ -103,8 +103,8 @@ const Footer = () => {
 
             <ul className="space-y-3 text-sm text-gray-400">
               <li>📍 Yaounde, Cameroon</li>
-              <li>📧 procuresolutions@hotmail.com</li>
-              <li>📞 +237 658 242 012</li>
+              <li>📧 procuresolutions2@gmail.com</li>
+              <li>📞 +237 676-057-776</li>
             </ul>
           </div>
 

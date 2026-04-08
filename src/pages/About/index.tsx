@@ -1,9 +1,9 @@
 const AboutPage = () => {
   const teamMembers = [
-    { name: "Eyong Marie", image: "", position: "CEO" },
-    { name: "Atang Valerie", image: "", position: "COO" },
-    { name: "Ndon Stanley", image: "", position: "CFO" },
-    { name: "Lele Alfred", image: "", position: "MD" },
+    { name: "Kolday Jules", image: "", position: "CEO" },
+    { name: "Djeukeu Fouodji", image: "", position: "DG" },
+    { name: "Neh Valerie", image: "", position: "PM" },
+    { name: "Titashipu Raissa", image: "", position: "CM" },
   ];
 
   return (
@@ -107,7 +107,7 @@ const AboutPage = () => {
               .toUpperCase();
 
             return (
-              <div key={idx} className="flex flex-col items-center bg-white rounded-2xl shadow-lg p-4 w-40 hover:scale-105 transition-transform">
+              <div key={idx} className="flex flex-col items-center bg-white rounded-2xl shadow-lg p-4 w-60 hover:scale-105 transition-transform">
                 {member.image ? (
                   <img
                     src={member.image}

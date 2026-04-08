@@ -1,4 +1,4 @@
-import { FaLinkedin, FaTwitter, FaFacebookF } from "react-icons/fa";
+import { FaLinkedin, FaFacebookF, FaTiktok } from "react-icons/fa";
 
 const ContactPage = () => {
   return (
@@ -39,7 +39,7 @@ const ContactPage = () => {
           >
             <div className="text-3xl mb-3">📧</div>
             <h3 className="font-bold text-lg text-gray-800">Email</h3>
-            <p className="text-gray-600 text-sm">procoresolutions@hotmail.com</p>
+            <p className="text-gray-600 text-sm">procuresolutions2@gmail.com</p>
           </a>
 
           {/* Phone */}
@@ -49,7 +49,7 @@ const ContactPage = () => {
           >
             <div className="text-3xl mb-3">📞</div>
             <h3 className="font-bold text-lg text-gray-800">Phone</h3>
-            <p className="text-gray-600 text-sm">+237 658 242 012</p>
+            <p className="text-gray-600 text-sm">+237 676-057-776</p>
           </a>
 
           {/* Location */}
@@ -61,7 +61,7 @@ const ContactPage = () => {
           >
             <div className="text-3xl mb-3">📍</div>
             <h3 className="font-bold text-lg text-gray-800">Location</h3>
-            <p className="text-gray-600 text-sm">Olezoa, Yaoundé</p>
+            <p className="text-gray-600 text-sm">Soa, Yaoundé</p>
           </a>
 
           {/* Hours */}
@@ -111,30 +111,30 @@ const ContactPage = () => {
 
           <div className="flex justify-center gap-10 text-3xl">
             <a
-              href="https://linkedin.com/company/yourcompany"
+              href="https://www.facebook.com/share/1DbwEDGrKh/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-blue-700 transition"
+            >
+              <FaFacebookF />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/procure-solutions2/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-sky-500 transition"
             >
               <FaLinkedin />
             </a>
 
             <a
-              href="https://twitter.com/yourcompany"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-sky-500 transition"
-            >
-              <FaTwitter />
-            </a>
-
-            <a
-              href="https://facebook.com/yourcompany"
+              href="https://www.tiktok.com/@.procure.solution?_r=1&_t=ZS-95N5zxOzZdV"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-blue-600 transition"
             >
-              <FaFacebookF />
+              <FaTiktok />
             </a>
           </div>
         </div>
