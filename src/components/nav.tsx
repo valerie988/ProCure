@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import logo from "../../public/images/logo1.png";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -20,11 +20,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link
-            to="/"
-            className="text-xl font-bold text-blue-600 tracking-tight"
-          >
-            <img src="/images/logo1.png" alt="" className="w-29"  />
+         <Link to="/">
+            <img src={logo} alt="Logo" className="w-28" />
           </Link>
 
           {/* Desktop Menu */}
