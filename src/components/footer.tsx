@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
+import logo1 from '../assets/logo1.png';
 
-import logo1 from "../../public/images/logo1.png";
 const Footer = () => {
   return (
     <footer className=" bg-linear-to-b from-blue-950 to-black text-blue-300">
